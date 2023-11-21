@@ -8,7 +8,7 @@ import ImageMarshmallow from "../../assets/images/ImageMarshmallow.svg";
 function About() {
   return (
     <>
-      <S.ContainerGrid>
+      <S.ContainerGrid id="projects">
         <img src={ImageBottle} alt="" />
         <img src={ImageCutOrange} alt="" />
         <img src={ImageCone} alt="" />

@@ -5,7 +5,7 @@ import ImageCup from "../../assets/images/ImageCup.svg";
 function About() {
   return (
     <>
-      <S.Container>
+      <S.Container id="about">
         <S.ContentItem>
           <S.ContentText>
             <S.Title>Transform your brand</S.Title>
