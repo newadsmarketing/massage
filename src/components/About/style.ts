@@ -2,10 +2,6 @@ import styled from "styled-components";
 import ImageCherry from "../../assets/images/ImageCherry.svg";
 import ImageOrange from "../../assets/images/ImageOrange.svg";
 
-// interface IContentItem {
-//   reverseColumn: boolean;
-// }
-
 export const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
