@@ -22,6 +22,10 @@ export const ContentHeader = styled.div<IHeader>`
   position: absolute;
   top: 20px;
 
+  @media (max-width: 720px) {
+    top: 40px;
+  }
+
   nav {
     @media (max-width: 720px) {
       width: 100%;
@@ -34,7 +38,7 @@ export const ContentHeader = styled.div<IHeader>`
     display: none;
 
     @media (max-width: 720px) {
-      display: block;
+      display: ${({ showItems }) => (showItems ? "block" : "none")};
       width: 0;
       height: 0;
       border-bottom: 24px solid #fffcf8;
@@ -49,11 +53,11 @@ export const ContentHeader = styled.div<IHeader>`
 
   menu {
     list-style-type: none;
-    display: flex;
     gap: 45px;
+    display: flex;
 
     @media (max-width: 720px) {
-      display: ${({ showItems }) => (showItems ? "flex" : "none")};
+      visibility: ${({ showItems }) => (showItems ? "visible" : "hidden")};
       flex-direction: column;
       align-items: center;
       justify-content: center;
