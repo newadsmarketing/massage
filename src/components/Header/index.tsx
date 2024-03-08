@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import * as S from "./style.ts";
 
-import LogoWhite from "../../assets/images/LogoWhite.svg";
+import LogoWhite from "../../assets/images/LogoWhite.png";
 import Hamburger from "../../assets/icons/Hamburger.svg";
 
 function Header() {
@@ -23,16 +23,16 @@ function Header() {
           <div className="indicate"></div>
           <menu>
             <li>
-              <a href="#about">About</a>
+              <a href="about">홈화면</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="services">서비스</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="projects">가격표</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="contact">이용문의</a>
             </li>
           </menu>
         </nav>

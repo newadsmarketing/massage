@@ -1,57 +1,42 @@
 import * as S from "./style.ts";
-import ImageEgg from "../../assets/images/ImageEgg.svg";
-import ImageCup from "../../assets/images/ImageCup.svg";
+import ImagePrice from "../../assets/images/ImagePrice.jpg";
+import ImageCup from "../../assets/images/ImageCup.jpg";
+
 
 function About() {
   return (
     <>
+    
       <S.Container id="about">
+      <img src={ImagePrice} alt="" />
         <S.ContentItem>
           <S.ContentText>
-            <S.Title>Transform your brand</S.Title>
+            <S.Title>서비스 소개</S.Title>
             <S.SubTitle>
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that do most of the marketing for you.
+            향남 '진시황 마사지' 가장합리적인 가격으로 최고에 서비스를 약속드립니다.
+            고객만족도 & 재방문율 1위 깔끔하고 세련된 인테리어를 갖추고 있으며
+            모든 관리사분들이 최고의 친절함으로 편안한 시간을 보장드립니다.
             </S.SubTitle>
-            <S.ButtonLearnMore>Learn More</S.ButtonLearnMore>
+            <S.ButtonLearnMore>향남 진시황 마사지</S.ButtonLearnMore>
           </S.ContentText>
         </S.ContentItem>
-        <img src={ImageEgg} alt="" />
+        
       </S.Container>
 
       <S.Container>
         <img src={ImageCup} alt="" />
         <S.ContentItem>
           <S.ContentText>
-            <S.Title>Stand out to the right audience</S.Title>
+            <S.Title>오시는 길</S.Title>
             <S.SubTitle>
-              Using a collaborative formula of designers, researchers,
-              photographers, videographers, and copywriters, we’ll build and
-              extend your brand in digital places.
+           롯데시네마 보도 1분거리 해당건물 주차장 이용가능
             </S.SubTitle>
-            <S.ButtonLearnMore>Learn More</S.ButtonLearnMore>
+            <S.ButtonLearnMore>경기 화성시 향남읍 발안 양감로205 진시황마사지</S.ButtonLearnMore>
           </S.ContentText>
         </S.ContentItem>
       </S.Container>
 
-      <S.Container>
-        <S.ContentImageCherry>
-          <span className="title">Graphic Design</span>
-          <span className="subtitle">
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </span>
-        </S.ContentImageCherry>
-        <S.ContentImageOrange>
-          <span className="title">Photography</span>
-          <span className="subtitle">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </span>
-        </S.ContentImageOrange>
-      </S.Container>
+      
     </>
   );
 }

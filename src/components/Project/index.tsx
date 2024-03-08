@@ -1,9 +1,9 @@
 import * as S from "./style.ts";
 
-import ImageBottle from "../../assets/images/ImageBottle.svg";
-import ImageCone from "../../assets/images/ImageCone.svg";
-import ImageCutOrange from "../../assets/images/ImageCutOrange.svg";
-import ImageMarshmallow from "../../assets/images/ImageMarshmallow.svg";
+import ImageBottle from "../../assets/images/ImageBottle.jpg";
+import ImageCone from "../../assets/images/ImageCone.jpg";
+import ImageCutOrange from "../../assets/images/ImageCutOrange.jpg";
+import ImageMarshmallow from "../../assets/images/ImageMarshmallow.jpg";
 
 function About() {
   return (

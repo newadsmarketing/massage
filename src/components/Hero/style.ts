@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BannerHero from "../../assets/images/BannerHero.svg";
+import BannerHero from "../../assets/images/BannerHero.jpg";
 
 export const ContainerHero = styled.section`
   display: flex;
@@ -19,7 +19,7 @@ export const ContainerHero = styled.section`
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    letter-spacing: 8.75px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     padding-bottom: 30px;
     width: 90%;
@@ -27,6 +27,23 @@ export const ContainerHero = styled.section`
     @media (max-width: 768px) {
       font-size: 40px;
     }
+  }
+    .subtitle {
+      color: #fff;
+      text-align: center;
+      font-family: "Avenir";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding-bottom: 30px;
+      width: 90%;
+  
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
   }
 
   /* .icon-down {
